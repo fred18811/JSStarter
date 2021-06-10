@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cellChass {
+    width: 50px;
+    height: 50px;
+}
+.cellText{
+    width: 50px;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+}
+.spaceEvenly{
+    justify-content:space-evenly;
+}
+.textPos{
+    text-align: center;
+}
+.colorBlack{
+    background-color: darkred;
+}
+.colorAntiquewhite{
+    background-color: antiquewhite;
+}
+
+.cart{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+.cart p{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+.cart div{
+    background-color: red;
+    min-height: 20px;
+}
+.textLeft{
+    text-align: left;
+}
+
+.catalogTab {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.catalogTab th, .catalogTab td {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    font-family: Verdana, sans-serif;    
+    border: 1px solid #337AB7;
+    vertical-align: top;
+}
+.catalogTab th {
+    color: #FFF;
+    background: #337AB7;
+    font-weight: bold;
+    border: 1px solid #1a4a73;    
+    text-transform: uppercase;    
+    text-align: center;    
+}
+.catalogTab tr:nth-child(even) {
+    background: #edf7ff;
+}
+.catalogTab td span {
+    background: #337AB7;
+    color: #FFF;
+    display: none;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;    
+    text-transform: uppercase;        
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
